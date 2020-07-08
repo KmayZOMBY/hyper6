@@ -1,157 +1,68 @@
 ---
-title: Why we built a company before building a product and why it worked
+title: Direct, pulsed and variable pulsed current iontophoresis machines
 date: 2017-04-30
-hero: /images/hero-6.jpg
-excerpt: Creating a new website for Hopper, one of the top 4 most downloaded travel apps in the U.S, along with Uber, Lyft.
+hero: "/images/hero-6.jpg"
+excerpt: Direct, pulsed and variable pulsed current iontophoresis machines
 timeToRead: 3
-authors:
-  - Thiago Costa
+authors: []
 
 ---
+# **Direct, pulsed and variable pulsed current iontophoresis machines**
 
-Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+###### **All iontophoresis machines supply power (sometimes referred to as dosage) to the patient in direct current. Direct current iontophoresis, up until around 10 years ago when the pulsed current Hidrex PS500 was launched, was the staple offering and the only option available to patients with Hyperhidrosis and excessive sweating.**
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+### Direct Current Iontophoresis Machines
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+Direct current supplies power or dosage 100% of the treatment time. For an example, if you are performing a treatment in direct current for 20 minutes, then power will be applied to the patient for the full 20 minute iontophoresis session, without any pause. This is 100% efficient.
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+The downside is that for some patients in some treatment areas of the body can find direct current uncomfortable, particularly at higher powers. You can of course lower the power to remain within comfortable levels, but the fact remains that some areas and some more serious cases of excessive sweating, will require high powers to break over the sweat and become dry.
 
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
+**It is important to note that not all patients will encounter discomfort in direct current.**  
+Tolerance levels vary from patient to patients. Our iontophoresis technicians have been in attendance at controlled NHS based iontophoresis sessions and witnessed young users undertaking treatments without any discomfort while a fully grown 100KG adult couldn’t tolerate even low power levels in direct current.
 
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
+Direct current remains a perfectly safe and viable current delivery option and in fact, we recommend that you try your iontophoresis machine in direct current first, as it is the most efficient method of delivering dosage to the patient. If you are treating the feet for planter Hyperhidrosis, then direct current is most likely the only treatment option available.
 
-```js
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import styled from "@emotion/styled";
+**Some areas of the body will not tolerate direct current.**  
+We would never recommend you treat an area such as the face or groin in direct current. The skin in these areas is generally too thin and prone to discomfort. In these situations, we recommend a pulsed current iontophoresis machine.
 
-import * as SocialIcons from "../../icons/social";
-import mediaqueries from "@styles/media";
+### Pulsed and Variable Pulsed Current Iontophoresis Machines.
 
-const icons = {
-  dribbble: SocialIcons.DribbbleIcon,
-  linkedin: SocialIcons.LinkedinIcon,
-  twitter: SocialIcons.TwitterIcon,
-  facebook: SocialIcons.FacebookIcon,
-  instagram: SocialIcons.InstagramIcon,
-  github: SocialIcons.GithubIcon,
-};
+As iontophoresis machines evolved and became more advanced, new technology was introduced, including pulsed current. Pulsed current – or standard pulsed current – sends power or dosage to the patient in pulsing on / off cycles.
 
-const socialQuery = graphql`
-  {
-    allSite {
-      edges {
-        node {
-          siteMetadata {
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    }
-  }
-`;
+This pulsing current could not easily be ‘seen’ by the pain receptors in the body. This dramatically reduced discomfort for patients and enabled a far wider section of Hyperhidrosis sufferers use iontophoresis to treat their excessive sweating without discomfort. It also broadened the scope of treatment areas available, leading to advances in accessories and improvements in responses in traditionally low tolerance areas. It also offered a solution to Hyperhidrosis patients who when afflicted with secondary skin conditions such as eczema, had no viable treatment option.
 
-function SocialLinks({ fill = "#73737D" }: { fill: string }) {
-  const result = useStaticQuery(socialQuery);
-  const socialOptions = result.allSite.edges[0].node.siteMetadata.social;
+The drawback with pulsed current, especially fixed standard pulsed current, is loss of efficiency. If you were to perform (for example) a 20 minute session in standard pulsed current, you would actually only receive 10 minutes of power or dosage. This is half the efficiency level of direct current and can mean that more treatments need to be performed before skin becomes dry and results are seen.
 
-  return (
-    <>
-      {socialOptions.map(option => {
-        const Icon = icons[option.name];
+Standard pulsed current iontophoresis machines deliver pulsed current in equal on off ratios – 50% on then 50% off cycle. This is displayed in settings as P50 (on Hidrex PSP1000 models) or n50 (on Hidrex ConnectION models)
 
-        return (
-          <SocialIconContainer
-            key={option.name}
-            target="_blank"
-            rel="noopener"
-            data-a11y="false"
-            aria-label={`Link to ${option.name}`}
-            href={option.url}
-          >
-            <Icon fill={fill} />
-          </SocialIconContainer>
-        );
-      })}
-    </>
-  );
-}
-```
+### Switchable and non switchable Iontophoresis machines
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+* The ranges stocked on IontoCentre.com have the following current delivery options:
+* The [**Hidrex ClassicION**](https://www.iontocentre.com/product-category/iontophoresis-machines/hidrex-classicion/) is switchable direct current and standard pulsed current.
+* The [**Hidrex ConnectION**](https://www.iontocentre.com/product-category/iontophoresis-machines/hidrex-connection/) is switchable between direct current, standard pulsed current and variable pulsed current.
+* The [**Idromed 5 GS**](https://www.iontocentre.com/product-category/iontophoresis-machines/idromed-5gs-machines/) is direct current only
+* The [**Idromed 5 PS**](https://www.iontocentre.com/product-category/iontophoresis-machines/idromed-5ps-machines/) is standard pulsed current only
+* Variable Pulsed Current Iontophoresis Machines
 
-# This is a primary heading
+The ability to alter the ratios of pulsed current treatment and vary the pulse cycles, is probably the most significant advance in iontophoresis machine technology since their initial development. It has had a huge positive impact on success rates for Hyperhidrosis patients.
 
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
+> Variable Pulsed current is a Hidrex design patent – no other models or manufacturers can offer this advanced feature.
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+Variable Pulsed current allows the patient to adjust the on off cycle of the machine in 10% increments. This allows the user to fine tune the strength of their treatment to suit the area of the body undergoing iontophoresis. It has opened a huge additional area of viability and enabled thousands of patients who without this feature, would not see results and cessation of sweating.
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+With the [**ConnectION**](https://www.iontocentre.com/product/hidrex-connection-direct-variable-pulsed-current-iontophoresis-hands-feet-underarms/) (and it’s predecessor the Hidrex PSP1000) the user can set the machine into pulsed current and enjoy very near direct current efficiency while retaining the benefits of milder pulsed current treatment.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+The machine will cycle in the following ranges:
 
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
+* n50 = standard pulsed current and 50% on 50% off cycles as described earlier in this post.
+* N60 = Variable 60% 0n with 40% off cycle
+* N70 = Variable 70% on with 30% off cycle
+* N80 = Variable 80% on with 20% off cycle
+* N90 = Variable 90% on with 10% off cycle
 
-## This is a secondary heading
+A patient performing iontophoresis treatments in n90 over (for example) a 20 minute treatment session will now receive 18 minutes of power or dosage (compared to 10 minutes in standard pulsed current).
 
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
+**This is an 80% more efficient pulsed current iontophoresis treatment**  
+Variable pulsed current has allowed patients with facial hyperhidrosis, underarms sweating or those suffering with secondary skin conditions to enjoy the benefits of treatment without discomfort or prolonged treatment times.
 
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
----
-
-Hyphens
-
----
-
-Asterisks
-
----
-
-Underscores
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-   ⋅⋅\* Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   ⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
+### **Thank you for reading.**
