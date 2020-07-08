@@ -1,157 +1,33 @@
 ---
-title: Why we built a company before building a product
+title: Current Limitation – Iontophoresis safety features
 date: 2019-04-30
-hero: /images/hero-6.jpg
-excerpt: this is my excerpt
-timeToRead: 3
+hero: "/images/hero-6.jpg"
+excerpt: Current Limitation – Iontophoresis safety features
+timeToRead: 10
 authors:
-  - Thiago Costa
+- Thiago Costa
 
 ---
+### **Current Limitation (aka Dose Limitation)  
+Iontophoresis safety**
 
-Hello, world! This is a demo post for `hugo-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+For your safety, the device permanently monitors the maximum permitted treatment parameters. The control panel is looking for upper and lower levels of resistance in the circuit. If your skin’s condition does not allow for safe operation within the set parameters, the Current Limitation feature will kick in. This may result in the dose (power) you have set not being reached. In this case, a protective circuit intervenes and stops the dose from increasing. This is an iontophoresis safety feature unique to [**Hidrex.**](https://hidrex.com/en/)
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+For example. Patient is treating his feet and selects n90 (pulse width 90%) with 32v of power. The patient places his feet into the water trays, the machine senses that the patients has entered the water and the circuit is closed. The [**Hidrex Iontophoresis machine**](https://www.iontocentre.com/product/hidrex-connection-direct-variable-pulsed-current-iontophoresis-hands-feet-underarms/) performs a skin conductance test to ensure the resistance levels are within safe tolerances. If it detects that the skin’s resistance levels are not able to support the requested 32v then the Current Limitation circuit kicks in to play and limits the power sent to the patient. On screen you will see the CL indicator and a reduced power level on the display.
 
-In my experience, the challenges that growing companies struggle with rarely stem from a lack of good ideas. Good ideas are everywhere.
+This protects you from burning and has no negative influence on the success of the treatment! It will not stop you from reaching dryness and ending excessive sweating.
 
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
+If the dose limitation is active, the display will alternate between showing the voltage on screen and the letters “CL” . The device “remembers” the dose (voltage – you will often read voltage or power referred to as dosage in iontophoresis treatments and therapies) you have set in the background and continues to try to reach this target value at regular intervals.
 
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
+You may therefore see changes in voltage levels as treatments progress and resistance in the body changes. During subsequent treatment sessions, as decreased sweating is reached (and body resistance increases), higher voltage values can be achieved, if necessary. Therefore you will be able to reach the desired power level and the CL feature will be switched off.
 
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
+### **A unique safety enhancement  
+to Iontophoresis therapy**
 
-```js
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import styled from "@emotion/styled";
+The Hidrex Current Limitation safety feature is a unique enhancement to Iontophoresis therapy and has been shown to help prevent over treatment, skin irritation and in some cases, small electrical burns. Many patients are too keen to reach a high power to gain results and end excessive sweating but this aggressive approach to treatment can be counter intuitive. If you operate the Iontophoresis machine at too high power for your skin you risk blisters which will stop further iontophoresis treatments until they are healed. This could of course lead to a delayed response to iontophoresis for [**hyperhidrosis (excessive sweating)**](https://www.iontocentre.com/about-hyperhidrosis/).
 
-import * as SocialIcons from "../../icons/social";
-import mediaqueries from "@styles/media";
+**Hint: The lower the pulse width settings, the more sensitive the protective circuit is, and therefore a higher chance of dose limitation activation. If possible, increase the pulse width to achieve higher dose values.**
 
-const icons = {
-  dribbble: SocialIcons.DribbbleIcon,
-  linkedin: SocialIcons.LinkedinIcon,
-  twitter: SocialIcons.TwitterIcon,
-  facebook: SocialIcons.FacebookIcon,
-  instagram: SocialIcons.InstagramIcon,
-  github: SocialIcons.GithubIcon,
-};
+The highest dose values and best treatment efficiency can be achieved with 90% pulse width or 100% pulse width.
 
-const socialQuery = graphql`
-  {
-    allSite {
-      edges {
-        node {
-          siteMetadata {
-            social {
-              name
-              url
-            }
-          }
-        }
-      }
-    }
-  }
-`;
-
-function SocialLinks({ fill = "#73737D" }: { fill: string }) {
-  const result = useStaticQuery(socialQuery);
-  const socialOptions = result.allSite.edges[0].node.siteMetadata.social;
-
-  return (
-    <>
-      {socialOptions.map(option => {
-        const Icon = icons[option.name];
-
-        return (
-          <SocialIconContainer
-            key={option.name}
-            target="_blank"
-            rel="noopener"
-            data-a11y="false"
-            aria-label={`Link to ${option.name}`}
-            href={option.url}
-          >
-            <Icon fill={fill} />
-          </SocialIconContainer>
-        );
-      })}
-    </>
-  );
-}
-```
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-# This is a primary heading
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-But it takes more than good ideas to build and grow a business. It takes people to bring them into reality. Are those people collaborating and sharing their expertise, or are they in conflict and keeping it to themselves?
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-## This is a secondary heading
-
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
-
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
----
-
-Hyphens
-
----
-
-Asterisks
-
----
-
-Underscores
-
-These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself. These are the circumstances that suffocate creativity and destroy value in an organization. That’s why I knew that if I was going to start a company, our first product would have to be the company itself.
-
-Do they have the resources necessary to execute on their ideas? Or are they constantly under pressure to pluck only the lowest-hanging fruit through bare minimum means, while putting their greatest ambitions on the back-burner?
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-   ⋅⋅\* Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   ⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
+If you have any questions please feel free to contact your support team.
