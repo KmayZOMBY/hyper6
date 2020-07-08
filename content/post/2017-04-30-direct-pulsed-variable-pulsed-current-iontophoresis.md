@@ -3,7 +3,7 @@ title: Direct, pulsed and variable pulsed current iontophoresis machines
 date: 2017-04-30
 hero: "/images/hero-6.jpg"
 excerpt: Direct, pulsed and variable pulsed current iontophoresis machines
-timeToRead: 3
+timeToRead: 10
 authors: []
 
 ---
